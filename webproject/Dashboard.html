@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskMasters Dashboard</title>
+  <link rel="stylesheet" href="DashboardStyle.css">
+</head>
+<body>
+
+  
+  <header class="nav-header">
+    <h1 class="logo">Student Task Manager</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="Dashboard.html" class="active">Dashboard</a></li>
+        <li><a href="task-manager.html">Task Manager</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="dashboard-header">
+    <h2>Welcome to Your Dashboard</h2>
+    <p>Track your tasks, deadlines, and progress at a glance.</p>
+  </section>
+
+  <section class="progress-section">
+    <h3>Overall Progress</h3>
+    <div class="progress-bar">
+      <div style="width: 60%;"></div>
+    </div>
+    <p class="progress-info">60% of tasks completed</p>
+  </section>
+
+ 
+  <section class="task-list">
+    <h3>Your Recent Tasks</h3>
+    <ul>
+      <li>
+        <div>
+          <p>Deadline: 2025-11-15</p>
+        </div>
+        <span class="task-status status-in-progress">In Progress</span>
+      </li>
+
+      <li class="completed">
+        <div>
+          <p>Deadline: 2025-11-05</p>
+        </div>
+        <span class="task-status status-completed">Completed</span>
+      </li>
+
+      <li>
+        <div>
+          <p>Deadline: 2025-11-20</p>
+        </div>
+        <span class="task-status status-not-started">Not Started</span>
+      </li>
+
+      <li>
+        <div>
+          <p>Deadline: 2025-11-25</p>
+        </div>
+        <span class="task-status status-in-progress">In Progress</span>
+      </li>
+
+      <li class="completed">
+        <div>
+          <p>Deadline: 2025-10-30</p>
+        </div>
+        <span class="task-status status-completed">Completed</span>
+      </li>
+    </ul>
+
+    <a href="task-manager.html" class="manage-btn">Manage Tasks</a>
+  </section>
+
+</body>
+</html>

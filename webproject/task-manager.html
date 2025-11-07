@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Task Manager | Student Project Dashboard</title>
+  <link rel="stylesheet" href="taskmanager.css" />
+</head>
+<body>
+  <header>
+    <h1>🎓 Student Task Management Dashboard</h1>
+    <p>Stay organized. Stay productive. Stay ahead of deadlines.</p>
+  </header>
+
+  <section class="task-form">
+    <h2>Add New Task</h2>
+    <form id="addForm" action="#" method="get">
+      <label for="title">Task Title</label>
+      <input id="title" name="title" placeholder="Enter task title" required />
+
+      <label for="desc">Description</label>
+      <textarea id="desc" name="desc" placeholder="Enter task description" required></textarea>
+
+      <div class="form-buttons">
+        <button type="submit" class="btn add">Add Task</button>
+        <button type="reset" class="btn clear">Clear</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="filter">
+    <h3>Filter Tasks</h3>
+    <div>
+      <button type="button" class="btn filter-btn">All</button>
+      <button type="button" class="btn filter-btn">Active</button>
+      <button type="button" class="btn filter-btn">Completed</button>
+    </div>
+  </section>
+
+  <section class="task-list">
+    <h2>My Tasks</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Select</th>
+          <th>Done</th>
+          <th>Title</th>
+          <th>Description</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td><input type="checkbox" /></td>
+          <td>Complete Sprint 1</td>
+          <td>Finish architecture report and HTML pages for the project.</td>
+          <td>
+            <button class="btn edit">Edit</button>
+            <button class="btn delete">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" /></td>
+          <td><input type="checkbox" checked /></td>
+          <td>Submit Demo</td>
+          <td>Prepare functional demo for the presentation.</td>
+          <td>
+            <button class="btn edit">Edit</button>
+            <button class="btn delete">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer>
+    <p>© 2025 UniTask | Created by Team taskMasters</p>
+  </footer>
+</body>
+</html>

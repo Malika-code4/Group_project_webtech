@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Project Collaboration</title>
+  <link rel="stylesheet" href="group_projects.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Group Project Collaboration</h1>
+
+  <input type="radio" name="step" id="step1" checked>
+  <section class="step">
+    <h2>Step 1: Project Details</h2>
+    <label>Project Name:</label>
+    <input type="text" placeholder="Enter project name">
+    
+    <label>Number of Group Members:</label>
+    <input type="number" placeholder="Enter number of members">
+    
+    <label>Leader Name:</label>
+    <input type="text" placeholder="Enter leader name">
+
+    <label for="step2" class="button">Continue</label>
+  </section>
+
+  
+  <input type="radio" name="step" id="step2">
+  <section class="step">
+    <h2>Step 2: Assign Tasks</h2>
+    <p>Leader can assign tasks to group members.</p>
+
+    <div class="task">
+      <label>Task 1:</label>
+      <input type="text" placeholder="Enter first task">
+    </div>
+    <div class="task">
+      <label>Task 2:</label>
+      <input type="text" placeholder="Enter second task">
+    </div>
+    <div class="task">
+      <label>Task 3:</label>
+      <input type="text" placeholder="Enter third task">
+    </div>
+
+    <label for="step3" class="button">Continue</label>
+  </section>
+
+  
+  <input type="radio" name="step" id="step3">
+  <section class="step">
+    <h2>Step 3: Team Progress</h2>
+    <p>Track how your team is progressing.</p>
+
+    <div class="progress-container">
+      <div class="progress-bar pending"></div>
+      <p class="status">Status: Pending </p>
+    </div>
+
+    <div class="progress-container">
+      <div class="progress-bar in-progress"></div>
+      <p class="status">Status: In Progress </p>
+    </div>
+
+    <div class="progress-container">
+      <div class="progress-bar done"></div>
+      <p class="status">Status: Completed </p>
+    </div>
+
+    <label for="step1" class="button">Start Over</label>
+  </section>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #004aad;
+  color: white;
+  padding: 15px 40px;
+}
+
+.nav-header .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-header a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.nav-header a:hover,
+.nav-header .active {
+  text-decoration: underline;
+}
+
+
+.dashboard-header {
+  text-align: center;
+  padding: 30px 20px;
+}
+
+
+.progress-section {
+  width: 80%;
+  margin: 25px auto;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #e4e4e4;
+  border-radius: 8px;
+  height: 20px;
+  margin: 10px 0;
+}
+
+.progress-bar div {
+  background: #004aad;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.progress-info {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #333;
+}
+
+
+.task-list {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.task-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-status {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.status-in-progress {
+  background: #ffcb00;
+}
+
+.status-not-started {
+  background: #e4e4e4;
+}
+
+.status-completed {
+  background: #25c06d;
+  color: white;
+}
+
+
+.manage-btn {
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+  padding: 12px;
+  background: #004aad;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.manage-btn:hover {
+  background: #003580;
+}
